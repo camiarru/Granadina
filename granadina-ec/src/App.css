@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.color{
+  background-color: pink;
+}
+
+.color2{
+  background-color: green;
+}
+
+.color3{
+  background-color: violet;
+}
+
+.color4{
+  background-color: red;
+}
+
+
+.img-carrito{
+  width: 22px;
+  height: 26px;
+}
+
+.navbar-espacio{
+  margin-left: 200px;
+}
+
+.item-navbar{
+  font-family:'Alegreya Sans', sans-serif;
+}
+
+.datas{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.icono-datas{
+  width: 50px;
+  height: 50px;
+}
+
+.icono-datas-s{
+  width: 40px;
+  height: 45px;
+}
+
+.texto-datas{
+  font-size: 24px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.categorias{
+  padding-top: 20px;
+}
