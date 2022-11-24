@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from './Navbar';
 import Datas from './Datas';
 import Banner from './Banner';
-import Categorias from './Categorias';
+// import Categorias from './Categorias';
+import Header from './Header';
 
 
 function App() {
@@ -15,7 +15,8 @@ function App() {
 
   return (
     <div>
-      <Navbar categoria1 = {categoria1} categoria2 = {categoria2} categoria3 = {categoria3} categoria4 = {categoria4} categoria5 = {categoria5}/>
+      <Header categoria1 = {categoria1} categoria2 = {categoria2} categoria3 = {categoria3} categoria4 = {categoria4} categoria5 = {categoria5}/>
+      {/* <Navbar  */}
       <Datas/>
       <Banner/>
       {/* <Categorias/> */}
