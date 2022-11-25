@@ -15,7 +15,3 @@ const CartWidget = () => {
 }
 
 export default CartWidget;
-
-{/* <div className="d-flex justify-content-end align-items-center color">
-<img src="Imagenes/bolsoblanco.png" alt="Carro de compras" className="img-carrito img-fluid "/>
-</div> */}

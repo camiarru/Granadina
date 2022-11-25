@@ -1,12 +1,17 @@
 import React from "react";
 import '../App.css';
+import CartWidget from "./CartWidget";
 
 
 const Navbar = ({categoria1, categoria2, categoria3, categoria4, categoria5}) => {
 
-    return(
+  return(
 
-          <nav className="container navbar navbar-expand-lg navbar-dark">
+      <div className="container-fluid bg-dark">
+        <div className="container bg-dark header">
+            <div className="row">
+                <div className="col-md-8">
+                <nav className="container navbar navbar-expand-lg navbar-dark">
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -23,8 +28,16 @@ const Navbar = ({categoria1, categoria2, categoria3, categoria4, categoria5}) =>
               </div>
             </div>
           </nav>
-    )
+                </div>
+                <div className="col-md-4 d-flex justify-content-end align-items-center">
+                    <CartWidget/>
+                </div>
+            </div>
+        </div>
+      </div>
+  )
 
 }
 
 export default Navbar;
+

@@ -2,7 +2,8 @@ import React from 'react';
 import Datas from './Datas';
 import Banner from './Banner';
 // import Categorias from './Categorias';
-import Header from './Header';
+import Navbar from './Navbar';
+import ItemListContainer from './ItemListContainer';
 
 
 function App() {
@@ -12,11 +13,12 @@ function App() {
   let categoria3 = 'VESTIDOS';
   let categoria4 = 'SWEATERS';
   let categoria5 = 'OFERTAS';
+  let mensajeGreeting = 'Seguinos en instagram! @granadina.dress';
 
   return (
     <div>
-      <Header categoria1 = {categoria1} categoria2 = {categoria2} categoria3 = {categoria3} categoria4 = {categoria4} categoria5 = {categoria5}/>
-      {/* <Navbar  */}
+      <Navbar categoria1 = {categoria1} categoria2 = {categoria2} categoria3 = {categoria3} categoria4 = {categoria4} categoria5 = {categoria5}/>
+      <ItemListContainer greeting = {mensajeGreeting}/>
       <Datas/>
       <Banner/>
       {/* <Categorias/> */}
